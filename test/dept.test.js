@@ -13,7 +13,7 @@ describe('grandTotal', function(){
       var bakerydepartment ={name : 'bakery',total :10073}
       var bucherydepartment ={name :'buchery',total:9053}
 
-        assert.deepEqual(grandTotal(grandTotal,42543));
+        assert.deepEqual(grandTotal(budget,42543));
     });
     it('should  return check if the list budget is correct ', function(){
       var toiletrydepartment ={name : 'toiletries',total: 5007}
@@ -31,7 +31,7 @@ describe('grandTotal', function(){
       var bakerydepartment ={name : 'bakery',total :10073}
       var bucherydepartment ={name :'buchery',total:9053}
 
-      assert.deepEqual(grandTotal(grandTotal,(total)));
+      assert.deepEqual(grandTotal(grandTotal,(42543)));
     });
 
     });
